@@ -116,3 +116,29 @@ main {
 .text-indigo-500 {
   color: #6366f1;
 }
+
+/* My works and thecnologies */
+.text-4xl {
+  font-size: 2.25rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+}
+
+.bg-black {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.rounded-lg {
+  border-radius: 0.75rem;
+}
+
+.hover\:scale-110:hover {
+  transform: scale(1.1);
+}
