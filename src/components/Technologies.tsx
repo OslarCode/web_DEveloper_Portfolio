@@ -5,16 +5,16 @@ import { motion } from "framer-motion";
 import { Parallax } from "react-scroll-parallax";
 
 const technologies = [
-  { name: "JavaScript", icon: "/path/to/js-icon.svg" },
-  { name: "React", icon: "/path/to/react-icon.svg" },
-  { name: "Next.js", icon: "/path/to/nextjs-icon.svg" },
-  { name: "Tailwind CSS", icon: "/path/to/tailwind-icon.svg" },
-  { name: "TypeScript", icon: "/path/to/ts-icon.svg" },
+  { name: "JavaScript", icon: "/icons/js-icon.svg" },
+  { name: "React", icon: "/icons/react-icon.svg" },
+  { name: "Redux", icon: "/icons/redux-icon.svg" },
+  { name: "Tailwind CSS", icon: "/icons/tailwind-icon.svg" },
+  { name: "TypeScript", icon: "/icons/ts-icon.svg" },
 ];
 
 export const Technologies = () => {
   return (
-    <section className="relative py-20 bg-gray-800 text-gray-300">
+    <section className="relative py-20 bg-gray-800 bg-opacity-70 text-gray-300">
       <div className="max-w-7xl mx-auto px-6">
         <motion.h2
           className="text-4xl md:text-5xl font-bold mb-12 text-center text-white"
