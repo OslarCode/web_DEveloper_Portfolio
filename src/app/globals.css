@@ -98,3 +98,21 @@ body {
 main {
   padding-top: 64px; /* Para evitar que el contenido quede oculto bajo la navbar */
 }
+
+/* Hero Section Background */
+.bg-hero-pattern {
+  background-image: url("/parallax/pexels-jorge-jesus-137537-614117.jpg");
+}
+
+/* Tamaños grandes para pantallas pequeñas y grandes */
+.text-5xl {
+  font-size: 3rem;
+}
+
+.text-7xl {
+  font-size: 5rem;
+}
+
+.text-indigo-500 {
+  color: #6366f1;
+}
