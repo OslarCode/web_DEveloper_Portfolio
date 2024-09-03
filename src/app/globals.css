@@ -86,3 +86,15 @@
     @apply bg-background text-foreground;
   }
 }
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding-top: 64px; /* Para evitar que el contenido quede oculto bajo la navbar */
+}
