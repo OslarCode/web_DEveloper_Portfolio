@@ -6,7 +6,7 @@ import { Parallax } from "react-scroll-parallax";
 
 export const AboutMe = () => {
   return (
-    <section className="relative py-20 bg-gray-800 text-gray-300">
+    <section className="relative py-20 bg-gray-800 bg-opacity-70 text-gray-300">
       <Parallax speed={5}>
         <motion.div
           className="max-w-4xl mx-auto px-6"

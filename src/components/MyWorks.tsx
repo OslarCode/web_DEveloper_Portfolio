@@ -24,12 +24,7 @@ const works = [
 
 export const MyWorks = () => {
   return (
-    <section
-      className="relative py-20 bg-fixed bg-cover bg-center text-gray-300"
-      style={{
-        backgroundImage: `url('/parallax/pexels-jorge-jesus-137537-614117.jpg')`,
-      }}
-    >
+    <section className="relative py-20 bg-fixed bg-cover bg-center text-gray-300">
       <div className="max-w-7xl mx-auto px-6">
         <motion.h2
           className="text-4xl md:text-5xl font-bold mb-12 text-center text-white"

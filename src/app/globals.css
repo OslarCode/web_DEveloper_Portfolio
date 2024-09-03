@@ -93,6 +93,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-image: url("/parallax/pexels-jorge-jesus-137537-614117.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 main {

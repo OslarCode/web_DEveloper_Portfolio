@@ -6,12 +6,7 @@ import { Parallax } from "react-scroll-parallax";
 
 export const Hero = () => {
   return (
-    <section
-      className="relative h-screen flex items-center justify-center bg-fixed bg-cover bg-center text-white"
-      style={{
-        backgroundImage: `url('/parallax/pexels-jorge-jesus-137537-614117.jpg')`,
-      }}
-    >
+    <section className="relative h-screen flex items-center justify-center bg-fixed bg-cover bg-center text-white">
       <Parallax speed={-10} className="absolute inset-0 z-0">
         <div className="w-full h-full opacity-30" />
       </Parallax>
