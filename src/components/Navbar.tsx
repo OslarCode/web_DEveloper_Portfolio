@@ -31,7 +31,7 @@ export const Navbar = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
           >
-            Mi Portfolio
+            My Portfolio
           </motion.h1>
         </Link>
 
