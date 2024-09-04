@@ -18,7 +18,7 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          Hola, soy un <span className="text-indigo-500">Programador Web</span>
+          Hello, I´m a <span className="text-indigo-500">Web Programmer</span>
         </motion.h1>
         <motion.p
           className="text-lg md:text-2xl mt-4"
@@ -26,7 +26,7 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          Creo soluciones digitales increíbles para la web.
+          I create incredible digital solutions for the web.
         </motion.p>
       </div>
     </section>

@@ -14,7 +14,7 @@ export const Contact = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          Contacto
+          Contact
         </motion.h2>
 
         <motion.div
@@ -38,13 +38,13 @@ export const Contact = () => {
                   className="block text-lg font-medium mb-2"
                   htmlFor="name"
                 >
-                  Nombre
+                  Name
                 </label>
                 <input
                   id="name"
                   type="text"
                   className="w-full px-4 py-3 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                  placeholder="Tu nombre"
+                  placeholder="Your Name"
                 />
               </div>
 
@@ -53,13 +53,13 @@ export const Contact = () => {
                   className="block text-lg font-medium mb-2"
                   htmlFor="email"
                 >
-                  Correo Electrónico
+                  Email
                 </label>
                 <input
                   id="email"
                   type="email"
                   className="w-full px-4 py-3 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                  placeholder="Tu correo electrónico"
+                  placeholder="Your Email"
                 />
               </div>
             </div>
@@ -69,13 +69,13 @@ export const Contact = () => {
                 className="block text-lg font-medium mb-2"
                 htmlFor="message"
               >
-                Mensaje
+                Message
               </label>
               <textarea
                 id="message"
                 rows={6}
                 className="w-full px-4 py-3 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                placeholder="Tu mensaje"
+                placeholder="Your Message"
               />
             </div>
 
@@ -86,7 +86,7 @@ export const Contact = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Enviar
+                Send
               </motion.button>
             </div>
           </motion.form>

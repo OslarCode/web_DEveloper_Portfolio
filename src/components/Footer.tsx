@@ -26,8 +26,7 @@ export const Footer = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.3 }}
             >
-              © {new Date().getFullYear()} Mi Portfolio. Todos los derechos
-              reservados.
+              © {new Date().getFullYear()} My Portfolio. All rights reserved.
             </motion.p>
           </div>
 

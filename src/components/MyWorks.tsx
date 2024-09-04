@@ -6,18 +6,18 @@ import { Parallax } from "react-scroll-parallax";
 
 const works = [
   {
-    title: "Proyecto 1",
-    description: "Descripción breve de tu primer proyecto destacado.",
+    title: "Project 1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
     image: "/works/pexels-markusspiske-360591.jpg",
   },
   {
-    title: "Proyecto 2",
-    description: "Descripción breve de tu segundo proyecto destacado.",
+    title: "Project 2",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
     image: "/works/pexels-pixabay-270557.jpg",
   },
   {
-    title: "Proyecto 3",
-    description: "Descripción breve de tu tercer proyecto destacado.",
+    title: "Project 3",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
     image: "/works/pexels-pixabay-270360.jpg",
   },
 ];

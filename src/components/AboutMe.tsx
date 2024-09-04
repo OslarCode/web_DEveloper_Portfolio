@@ -16,21 +16,19 @@ export const AboutMe = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center text-white">
-            Sobre Mí
+            About me
           </h2>
-          <p className="text-lg md:text-xl leading-relaxed">
-            Soy un programador web apasionado con experiencia en crear
-            aplicaciones web modernas y escalables. Me especializo en el
-            desarrollo frontend con tecnologías como React, Next.js, y
-            TailwindCSS. Además, me encanta resolver problemas complejos y
-            aprender nuevas tecnologías para mejorar continuamente mis
-            habilidades.
+          <p className="text-lg text-center md:text-xl leading-relaxed">
+            I am a passionate web programmer with experience in creating modern
+            and scalable web applications. I specialize in frontend development
+            with technologies such as React, Next.js, and TailwindCSS.
+            Furthermore, I love solving complex problems and learn new
+            technologies to continually improve my skills.
           </p>
-          <p className="text-lg md:text-xl leading-relaxed mt-4">
-            Cuando no estoy programando, disfruto explorando el mundo de la
-            tecnología, contribuyendo a proyectos de código abierto y
-            experimentando con nuevas herramientas que puedan mejorar la
-            experiencia del usuario en la web.
+          <p className="text-lg text-center md:text-xl leading-relaxed mt-4">
+            When I'm not programming, I enjoy exploring the world of technology,
+            contributing to open source projects and experimenting with new
+            tools that can improve the user experience on the web.
           </p>
         </motion.div>
       </Parallax>
